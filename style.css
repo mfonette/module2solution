@@ -1,0 +1,118 @@
+p{
+    padding:  50px 20px 20px 20px;
+}
+
+h3{
+    border: 1px solid black;
+    width: 25%;
+    float: right;
+    padding: 10px;
+    background-color: rgb(163, 69, 69);
+    margin-top: 0px;
+    text-align: center;
+}
+
+.section{
+    float: left;
+    border: 1px solid black;
+    width: 30%;
+    margin: 20px;
+    background-color: grey;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .first, .second {
+        float: left;
+        width: 45%;
+    }
+    .third{
+        float: left;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .section{
+        width: 100%;
+    }
+}
+/* 
+h3{
+    background-color: rgb(163, 69, 69);
+    position: absolute;
+    top: 2.35em;
+    width: 30%;
+   left: 67%;
+   padding: 1.5%;
+   text-align: center;
+   border: 1px thick black;
+}
+.first{
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px thick black;
+}
+.second{
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px thick black;
+}
+.third{
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px thick black;
+} */
+/* #p1{
+    background-color: grey; 
+    margin-top: 10px;
+    padding: 50px 10px 20px 10px;
+    position: relative;
+    width: 30%;
+    float: left;
+}
+#p2{
+    background-color: grey;
+    padding: 50px 35px 35px 35px;
+    border: 1px thick black;
+}
+#p3{
+    background-color: grey;
+    padding: 50px 35px 35px 35px;
+    border: 1px thick black;
+}
+@media (min-width: 992px) { */
+    /* .section {
+        float: left;
+        width: 30%;
+        /* height: 30%; */
+        /* border-style: solid;
+        border-width: 2px;
+        box-sizing: border-box;
+    }  */
+ 
+/* }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+    .third h3{
+        background-color: rgb(163, 69, 69);
+        position: relative;
+        top: 3em;
+        width: 20%;
+       left: 78%;
+       padding: 1%;
+       text-align: center;
+    }
+    .first, .second {
+        float: left;
+        width: 45%;
+    }
+    .third{
+        float: left;
+    }
+}
+
+@media (max-width: 375px) {
+h3{
+    top: 2.65em;
+}
+} */
