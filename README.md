@@ -1,2 +1,2 @@
 # module2solution
-# author Ette MFon
+# author Ette Mfon
